@@ -1,0 +1,146 @@
+/* Universal Styles */
+
+body {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: .9;
+margin: 0;
+text-align: center;
+}
+
+.content {
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2, h4 {
+  text-align: center;
+  display: block;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+h5 {
+display: block;
+background-color: black;
+width: 100%;
+margin: 0;
+padding: 10px;
+}
+
+
+p {
+  text-align: center;
+  display: block;
+}
+
+
+/* Header Styles */
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+header a {
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+  text-decoration: underline;
+}
+
+.logo img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+/* Our Mission Styles */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+/* Featured Teas Styles */
+
+#featuredtea {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Locations Styles */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+#locations h2 {
+  background-color: transparent;
+}
+
+.textbox {
+  width: 600px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  flex-basis: 280px;
+}
+
+/* Bottom section styles */
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.bottom h2, h5 {
+  padding: 20px;
+}
+
+
+.footer {
+  text-align: left;
+  padding-left: 10px;
+}
